@@ -1,0 +1,44 @@
+name: safe_network_image
+description: A robust Flutter widget that extends cached_network_image with enhanced error handling, connectivity awareness, shimmer effects, and automatic retry functionality.
+version: 1.0.0
+homepage: https://github.com/vipulbansal/safe_network_image.git
+repository: https://github.com/vipulbansal/safe_network_image.git
+issue_tracker: https://github.com/vipulbansal/safe_network_image/issues
+documentation: https://pub.dev/packages/safe_network_image
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.4.1
+  connectivity_plus: ^6.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+topics:
+  - ui
+  - widgets
+  - images
+  - networking
+  - cache
+  - shimmer
+  - placeholder
+
+screenshots:
+  - description: 'SafeNetworkImage with shimmer loading effect'
+    path: screenshots/shimmer_loading.png
+  - description: 'Error handling with fallback icons'
+    path: screenshots/error_handling.png
+  - description: 'Avatar, card, and banner variants'
+    path: screenshots/variants.png
+
+funding:
+  - https://paypal.me/vipulbansal?country.x=IN&locale.x=en_GB
