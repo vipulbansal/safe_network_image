@@ -30,8 +30,7 @@ topics:
   - images
   - networking
   - cache
-  - shimmer
-  - placeholder
+
 
 #screenshots:
 #  - description: 'SafeNetworkImage with shimmer loading effect'
