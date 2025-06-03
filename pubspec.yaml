@@ -1,3 +1,4 @@
+publisher: vipulflutter.dev
 name: safe_network_image
 description: A robust Flutter widget that extends cached_network_image with enhanced error handling, connectivity awareness, shimmer effects, and automatic retry functionality.
 version: 1.0.0
